@@ -24,6 +24,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      favicon: './frontend/favicon.ico',
       template: './frontend/index.html',
       minify: {
         collapseWhitespace: true,
